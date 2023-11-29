@@ -1,0 +1,71 @@
+GAME:
+    INCREASE_SPAWN_CHANGE_DELAY: 6
+    INCREASE_SPAWN_AMOUNT_DELAY: 12
+
+PLAYER:
+    MAX_HEALTH: 3000
+    DAMAGE: 100
+    
+    BOMB:
+        BOMB_DAMAGE: 300
+        BOMB_AMOUNT: 6
+        BOMB_DELAY: 0.15
+        BOMB_CHARGE_SPEED: 2
+        
+    GUN:
+        AMMO_CHARGE: 100
+        GUN_DELAY: 0.15
+        GUN_CHARGE_SPEED: 0.003
+        GUN_CHARGE_AMOUNT: 0.65
+        GUN_CHARGE_DELAY: 0.5
+        
+ENEMY:
+    SOLIDER:
+        HEALTH: 50
+        DAMAGE: 20
+        KILL_SCORE: 15
+        SPEED: 2
+        SHOOT_PERCENT: 5
+        
+        START_AMOUNT: 4
+        SPAWN_CHANGE: 0.12
+        
+    WIESEL1T:
+        HEALTH: 150
+        DAMAGE: 75
+        KILL_SCORE: 35
+        SPEED: 7
+        SHOOT_PERCENT: 4
+        
+        START_AMOUNT: 1
+        SPAWN_CHANGE: 0.04
+        
+    WIESELMK:
+        HEALTH: 250
+        DAMAGE: 50
+        KILL_SCORE: 35
+        SPEED: 7
+        SHOOT_PERCENT: 2
+        
+        START_AMOUNT: 1
+        SPAWN_CHANGE: 0.04
+        
+    METAL:
+        HEALTH: 500
+        DAMAGE: 50
+        KILL_SCORE: 50
+        SPEED: 6
+        SHOOT_PERCENT: 10
+        
+        START_AMOUNT: 1
+        SPAWN_CHANGE: 0.02
+        
+    SPRINGER:
+        HEALTH: 2000
+        DAMAGE: 60
+        KILL_SCORE: 120
+        SPEED: 35
+        SHOOT_PERCENT: 8
+        
+        START_AMOUNT: 1
+        SPAWN_CHANGE: 0.01
